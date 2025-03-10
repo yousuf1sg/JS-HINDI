@@ -1,0 +1,6 @@
+Command palette Ctrl+ Shft+ P
+
+terminal  Ctrl`
+
+{} is called scope
+

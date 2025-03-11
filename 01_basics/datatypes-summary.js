@@ -32,3 +32,31 @@ const myFunction = function() {
 console.log(typeof score);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory types
+
+// 1. Stack (Primitive), Heap (Non Primitive)
+// stack will goes to stack and heap will goes to heap
+
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

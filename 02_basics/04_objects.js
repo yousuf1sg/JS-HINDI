@@ -66,7 +66,37 @@ users[1].email
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // false
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // false
 
+
+//+++++++++++ destruct ++++++++++++++++
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstrutor: "Hitesh"
+}
+
+// course.courseinstrutor 
+
+const {courseInstrutor: instructor} = course
+
+//console.log(courseInstrutor);
+console.log(instructor);
+
+//++++++++++ APIs +++++++++++
+
+//{
+//     "name": "Hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+
+    {}
+    {}
+    {}
+]

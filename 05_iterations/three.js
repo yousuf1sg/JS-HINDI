@@ -1,4 +1,4 @@
-// for of   
+// for of   loop
 // use for array and object whcih common in javasript
 
 //["", "", ""] // string array
